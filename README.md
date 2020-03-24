@@ -6,7 +6,7 @@ Differences from the official template:
 
 - Includes [ESLint](https://eslint.org/) support for `.js` and `.svelte` files.
 - Removes most demo code.
-- Adds [`svelte-preprocess`](https://www.npmjs.com/package/svelte-preprocess) in case you want sass or typescript support
+- Includes [`svelte-preprocess`](https://www.npmjs.com/package/svelte-preprocess) in case you want sass or typescript support
 
 ## Getting started
 
