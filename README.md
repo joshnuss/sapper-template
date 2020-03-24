@@ -1,36 +1,27 @@
 # sapper-template
 
-The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
+A [Sapper](https://github.com/sveltejs/sapper) template, that includes Rollup.
 
+It adds [ESLint](https://eslint.org/) support and removes a lot of the demo code you'd find in the official template.
 
 ## Getting started
 
 
-### Using `degit`
-
-[`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository. Use either the `rollup` or `webpack` branch in `sapper-template`:
+Create a copy using [`degit`](https://github.com/Rich-Harris/degit):
 
 ```bash
-# for Rollup
-npx degit "sveltejs/sapper-template#rollup" my-app
-# for webpack
-npx degit "sveltejs/sapper-template#webpack" my-app
+npx degit "joshnuss/sapper-template" my-sappper-app
 ```
-
-
-### Using GitHub templates
-
-Alternatively, you can use GitHub's template feature with the [sapper-template-rollup](https://github.com/sveltejs/sapper-template-rollup) or [sapper-template-webpack](https://github.com/sveltejs/sapper-template-webpack) repositories.
 
 
 ### Running the project
 
-However you get the code, you can install dependencies and run the project in development mode with:
+Install dependencies and run the project in development mode with:
 
 ```bash
 cd my-app
-npm install # or yarn
-npm run dev
+yarn
+yarn dev
 ```
 
 Open up [localhost:3000](http://localhost:3000) and start clicking around.
