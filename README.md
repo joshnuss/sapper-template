@@ -2,7 +2,11 @@
 
 A [Sapper](https://github.com/sveltejs/sapper) template, that includes Rollup.
 
-It adds [ESLint](https://eslint.org/) support and removes a lot of the demo code you'd find in the official template.
+Differences from the official template:
+
+- Includes [ESLint](https://eslint.org/) support for `.js` and `.svelte` files.
+- Removes most demo code.
+- Adds [`svelte-preprocess`](https://www.npmjs.com/package/svelte-preprocess) in case you want sass or typescript support
 
 ## Getting started
 
@@ -10,9 +14,8 @@ It adds [ESLint](https://eslint.org/) support and removes a lot of the demo code
 Create a copy using [`degit`](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit "joshnuss/sapper-template" my-sappper-app
+npx degit joshnuss/sapper-template my-sappper-app
 ```
-
 
 ### Running the project
 
@@ -32,7 +35,6 @@ Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
 ## Structure
 
 Sapper expects to find two directories in the root of your project —  `src` and `static`.
-
 
 ### src
 
