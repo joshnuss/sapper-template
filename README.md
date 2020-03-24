@@ -2,7 +2,7 @@
 
 A [Sapper](https://github.com/sveltejs/sapper) template, that includes Rollup.
 
-Differences from the official template:
+This is a fork of the official template, with some differences:
 
 - Includes [ESLint](https://eslint.org/) support for `.js` and `.svelte` files.
 - Removes most demo code.
