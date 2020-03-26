@@ -13,6 +13,7 @@
     "lint": "eslint . --ext .js,.svelte"
   },
   "dependencies": {
+    "@polka/send-type": "^0.5.2",
     "compression": "^1.7.1",
     "polka": "next",
     "sirv": "^0.4.0"
