@@ -3,6 +3,9 @@ import polka from 'polka'
 import send from '@polka/send-type'
 import compression from 'compression'
 import * as sapper from '@sapper/server'
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const { PORT, NODE_ENV } = process.env
 const dev = NODE_ENV === 'development'
