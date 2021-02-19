@@ -7,6 +7,7 @@ This is a fork of the official template, with some differences:
 - Includes [ESLint](https://eslint.org/) support for `.js` and `.svelte` files.
 - Removes most demo code.
 - Includes [`svelte-preprocess`](https://www.npmjs.com/package/svelte-preprocess) in case you want sass or typescript support
+- Includes [`dotenv`](https://www.npmjs.com/package/dotenv)
 
 ## Getting started
 
